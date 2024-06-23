@@ -12,12 +12,12 @@ Este script em Python usa a biblioteca MoviePy para detectar e cortar partes sil
 
 ### Instalando as dependências
 ```bash
-    pip install moviepy numpy pillow
+pip install moviepy numpy pillow
 ```
 
 ### Executando o script
 ```bash
-    python autocut.py
+python autocut.py
 ```
 
 ### Funções Principais
@@ -47,13 +47,13 @@ Esta função corta o vídeo para remover partes silenciosas e, opcionalmente, a
 O exemplo abaixo corta o vídeo 'video.mp4', remove partes silenciosas, adiciona a imagem 'image.png' e salva o resultado como 'output.mp4'.
 
 ```python
-    cut_video_on_silence(
-        video_path='video.mp4',
-        output_path='output.mp4',
-        image_path='image.png',
-        silence_threshold=0.01,
-        chunk_size=0.1
-    )
+cut_video_on_silence(
+    video_path='video.mp4',
+    output_path='output.mp4',
+    image_path='image.png',
+    silence_threshold=0.01,
+    chunk_size=0.1
+)
 ```
 
 ## Contribuições
